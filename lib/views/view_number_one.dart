@@ -110,11 +110,7 @@ class FirstMenu extends StatelessWidget {
                         ),
                         const SizedBox(height: 20),
                         InkWell(
-                          onTap: () {
-                            PopupMenuItem(
-                              child: Text('Hello Mardo'),
-                            );
-                          },
+                          onTap: () {},
                           child: Container(
                             padding: const EdgeInsets.symmetric(
                               horizontal: 30,

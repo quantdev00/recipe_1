@@ -22,7 +22,7 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Main app'),
+        title: Text('Home'),
       ),
       body: Center(child: myMenus[index]),
       bottomNavigationBar: BottomNavigationBar(
