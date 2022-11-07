@@ -1,1 +1,1 @@
-final phoneWidth = 600;
+const phoneWidth = 600;

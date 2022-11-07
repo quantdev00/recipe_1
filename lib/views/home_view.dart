@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:recipe_1/constant/constant.dart';
 import 'package:recipe_1/views/view_number_one.dart';
@@ -22,12 +24,12 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home'),
+        title: const Text('Home'),
       ),
       body: Center(child: myMenus[index]),
       bottomNavigationBar: BottomNavigationBar(
         onTap: (value) {
-          print(value);
+          log(value.toString());
           setState(() {
             index = value;
           });

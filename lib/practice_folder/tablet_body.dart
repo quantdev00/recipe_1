@@ -8,7 +8,7 @@ class TableBody extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text('T A B L E T'),
+          title: const Text('T A B L E T'),
         ),
         drawer: Drawer(
           child: Padding(
@@ -21,7 +21,7 @@ class TableBody extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return Text(
                     'Menu $index',
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.white,
                     ),
                   );

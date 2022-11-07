@@ -22,7 +22,7 @@ class ResponsiveView extends StatelessWidget {
             MediaQuery.of(context).orientation == Orientation.landscape) {
           return tabletBody;
         } else {
-          return Text('Error');
+          return const Text('Error');
         }
       },
     );

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class PhoneBody extends StatelessWidget {
   const PhoneBody({super.key});
@@ -24,7 +22,7 @@ class PhoneBody extends StatelessWidget {
             ),
             Expanded(
               child: Padding(
-                padding: EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 child: ListView.builder(
                   itemCount: 8,
                   itemBuilder: (context, index) {

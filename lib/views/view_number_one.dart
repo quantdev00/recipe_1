@@ -86,6 +86,7 @@ class FirstMenu extends StatelessWidget {
                 Row(
                   children: [
                     Container(
+                      color: Colors.blue,
                       width: MediaQuery.of(context).size.width / 2,
                       child: Image.asset('assets/images/work_out.jpg'),
                     ),
